@@ -1,6 +1,6 @@
-// 
+//
 // Sections
-// 
+//
 
 section.resume-section {
     display: flex;
@@ -28,5 +28,12 @@ section.resume-section {
         padding-right: 3rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+
+    .img-company {
+        max-width: 3rem;
+        max-height: 3rem;
+        border: 0.5rem solid fade-out($white, 0.8);
+        margin-right: 5px;
     }
 }
