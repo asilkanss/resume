@@ -22,6 +22,9 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
+        //devicon
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css")
+
     body#page-top
 
         // Navigation
@@ -192,42 +195,63 @@ html(lang='en')
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-3 Backend
                     ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-html5
+                            i.devicon-typescript-plain(data-title='Typescript')
                         li.list-inline-item
-                            i.fab.fa-css3-alt
+                            i.devicon-javascript-plain(data-title='Javascript')
                         li.list-inline-item
-                            i.fab.fa-js-square
+                            i.devicon-express-original(data-title='Express')
                         li.list-inline-item
-                            i.fab.fa-angular
+                            i.devicon-jest-plain(data-title='Jest')
                         li.list-inline-item
-                            i.fab.fa-react
+                            i.devicon-mocha-plain(data-title='Mocha')
+                    .subheading.mb-3 Frontend
+                    ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-node-js
+                            i.devicon-vuejs-plain(data-title='Vue')
                         li.list-inline-item
-                            i.fab.fa-sass
+                            i.devicon-react-plain(data-title='React')
                         li.list-inline-item
-                            i.fab.fa-less
+                            i.devicon-nextjs-plain(data-title='Next')
                         li.list-inline-item
-                            i.fab.fa-wordpress
+                            i.devicon-vuetify-line(data-title='Vuetify')
                         li.list-inline-item
-                            i.fab.fa-gulp
+                            i.devicon-materialui-plain(data-title='MaterialUI')
                         li.list-inline-item
-                            i.fab.fa-grunt
+                            i.devicon-webpack-plain(data-title='Webpack')
                         li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
+                            i(data-title='Vite')
+                                img.devicon(src='https://simpleicons.org/icons/vite.svg' style='vertical-align: unset;')
+                    .subheading.mb-3 Database & Cache
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.devicon-postgresql-plain(data-title='PostgreSQL')
+                        li.list-inline-item
+                            i(data-title='Apache Druid')
+                                img.devicon(src='https://simpleicons.org/icons/apachedruid.svg' style='vertical-align: unset;')
+                        li.list-inline-item
+                            i.devicon-redis-plain(data-title='Redis')
+                        li.list-inline-item
+                            i(data-title='Elasticsearch')
+                                img.devicon(src='https://simpleicons.org/icons/elastic.svg' style='vertical-align: unset;')
+                        li.list-inline-item
+                            i(data-title='OpenSearch')
+                                img.devicon(src='https://simpleicons.org/icons/opensearch.svg' style='vertical-align: unset;')
+                    .subheading.mb-3 Dev&Ops
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.devicon-docker-plain(data-title='Docker')
+                        li.list-inline-item
+                            i.devicon-jenkins-plain(data-title='Jenkins')
+                        li.list-inline-item
+                            i.devicon-kubernetes-plain(data-title='Kubernetes')
+                        li.list-inline-item
+                            i(data-title='Kong Gateway')
+                                img.devicon(src='https://simpleicons.org/icons/kong.svg' style='vertical-align: unset;')
+                    .subheading.mb-3 Additional
                     ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
                         li
                             span.fa-li
                                 i.fas.fa-check
