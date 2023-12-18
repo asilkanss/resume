@@ -32,3 +32,7 @@ module.exports = function renderSCSS() {
     })
 
 };
+
+const entryPoint = `
+@import "${stylesPath}"
+`
