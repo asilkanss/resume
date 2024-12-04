@@ -11000,6 +11000,12 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+section.resume-section .img-company {
+  max-width: 3rem;
+  max-height: 3rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  margin-right: 5px;
+}
 
 @media (min-width: 768px) {
   section.resume-section {
@@ -11012,11 +11018,5 @@ section.resume-section .resume-section-content {
     padding-right: 3rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-  }
-  .img-company {
-    max-width: 3rem;
-    max-height: 3rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    margin-right: 5px;
   }
 }

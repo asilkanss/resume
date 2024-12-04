@@ -1,6 +1,6 @@
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -27,3 +27,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+window.onload = function() {
+    const startDate = new Date('June 1, 2017');
+    const currentDate = new Date();
+    const yearsOfExperience = currentDate.getFullYear() - startDate.getFullYear();
+    const monthDifference = currentDate.getMonth() - startDate.getMonth();
+
+    const totalExperience = (monthDifference < 0) ? yearsOfExperience - 1 : yearsOfExperience;
+
+    document.getElementById('experience-duration').textContent = `${totalExperience}+ years of experience.`;
+};
