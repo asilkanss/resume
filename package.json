@@ -1,6 +1,7 @@
 {
     "title": "Resume",
     "name": "asilkan-resume",
+    "author": "Asilkan Sertac SATI",
     "version": "7.0.6",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",

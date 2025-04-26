@@ -1,7 +1,6 @@
 /*!
 * Start Bootstrap - Resume v7.0.6 (undefined)
-* Copyright 2013-2024 undefined
-* Licensed under undefined (https://github.com/StartBootstrap/asilkan-resume/blob/master/LICENSE)
+* Copyright 2013-2025 Asilkan Sertac SATI
 */
 //
 // Scripts
